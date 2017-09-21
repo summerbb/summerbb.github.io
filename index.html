@@ -2,307 +2,421 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
   
-  <title>��һ���Ĳ���</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <title>Hexo</title>
   <meta property="og:type" content="website">
-<meta property="og:title" content="��һ���Ĳ���">
+<meta property="og:title" content="Hexo">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="��һ���Ĳ���">
+<meta property="og:site_name" content="Hexo">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="��һ���Ĳ���">
+<meta name="twitter:title" content="Hexo">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://yoursite.com/index.html">
   
-    <link rel="alternate" href="/atom.xml" title="��һ���Ĳ���" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
   
-  
-    
-  
+  <!-- font-awesome CSS -->
+  <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   
+    
 
 </head>
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    
-    <div id="header-inner" class="inner">
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+<body class="main-center">
+  <section class="mainside">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/cofess" target="_blank">
+          <img class="thumb-xl img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">宏伟</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">JAVA Developer &amp; Designer</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="fa fa-map-marker"></i> Beijing, China</small>
       </div>
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">首页</a>
-        
-          <a class="main-nav-link" href="/archives">归档</a>
-        
-          <a class="main-nav-link" href="/about">关于</a>
-        
-      </nav>
       
+      <div class="search" id="search-form-wrap">
+
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat"><i class="fa fa-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+            <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <!-- <span class="ins-close ins-selectable"><i class="fa fa-times"></i></span> -->
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
     </div>
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">��һ���Ĳ���</a>
-      </h1>
-      
+</div>
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">导航菜单</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
     </div>
+    <nav id="main-navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav main-nav">
+        
+        
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="fa fa-fw fa-dashboard"></i>
+            
+            <span class="menu-title">主页</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="fa fa-fw fa-delicious"></i>
+            
+            <span class="menu-title">存档</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="fa fa-fw fa-folder"></i>
+            
+            <span class="menu-title">目录</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="fa fa-fw fa-tags"></i>
+            
+            <span class="menu-title">标签</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="fa fa-fw fa-code"></i>
+            
+            <span class="menu-title">代码仓库</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-books">
+          <a href="/books">
+            
+            <i class="fa fa-fw fa-leanpub"></i>
+            
+            <span class="menu-title">书籍</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="fa fa-fw fa-gg"></i>
+            
+            <span class="menu-title">友情链接</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="fa fa-fw fa-coffee"></i>
+            
+            <span class="menu-title">关于</span>
+          </a>
+        </li>
+        
+      </ul>
+      <div class="footer">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/cofess" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="fa fa-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="fa fa-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="fa fa-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="fa fa-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="fa fa-rss"></i></a></li>
+        
+    </ul>
+    
+    <div class="copyright">
+        &copy; 2017 王宏伟
+        <div class="publishby">
+        	<!-- Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>. -->
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
+    </div>
+</div>
+    </nav>
   </div>
-</header>
-      <div class="outer">
-        <section id="main">
+</section>
+
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/09/18/hello-world/" class="article-date">
-  <time datetime="2017-09-18T14:28:28.398Z" itemprop="datePublished">2017-09-18</time>
-</a>
+    <section class="sidebar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            
+            <p>您好，您是第<span id="busuanzi_value_site_uv">0</span>位访客</p>
+            
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+
+    
+      
+
+    
+      
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">存档</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">最近发布</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2017/08/26/个人介绍/" class="title">个人介绍</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2017-08-26T15:19:10.000Z" itemprop="datePublished">2017-08-26</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
     
   </div>
-  <div class="article-inner">
+</section>
+
+  
+  <section class="main">
+  
+  
+    <div class="content">
+  <article id="post-个人介绍" class="article article-type-post" itemscope itemprop="blogPost">
     
-    
-      <header class="article-header">
+    <header class="article-header">
+      
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/18/hello-world/">-- ��һ�� �ĸ�����ҳ</a>
+      <a class="article-title" href="/2017/08/26/个人介绍/">个人介绍</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
       
-        <!-- Table of Contents -->
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="fa fa-calendar-check-o"></i>
+	<a href="/2017/08/26/个人介绍/" class="article-date">
+	  <time datetime="2017-08-26T15:19:10.000Z" itemprop="datePublished">2017-08-26</time>
+	</a>
+</span>
         
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"hamapi"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        
+
+        
+	<span class="article-read hidden-xs">
+	    <i class="fa fa-eye" aria-hidden="true"></i>
+	    <span id="busuanzi_container_page_pv">
+			阅读<span id="busuanzi_value_page_pv">0</span>次
+		</span>
+	</span>
+
+
+        <span class="post-comment"><i class="fa fa-commenting-o"></i> <a href="/2017/08/26/个人介绍/#comments" class="article-comment-link">Comments</a></span>
+        
+      </div>
+      
+    </header>
+    <div class="article-entry markdown-body" itemprop="articleBody">
+      
+        <h1 id="王宏伟的自我介绍"><a href="#王宏伟的自我介绍" class="headerlink" title="王宏伟的自我介绍"></a>王宏伟的自我介绍</h1><p>姓名：王宏伟</p>
+<p>性别：男</p>
+<p>学历：本科</p>
+<p>毕业院校：石家庄铁道大学</p>
+<p>专业：软件工程</p>
+<p>方向：JAVA高级工程师</p>
+<p><h3>项目经验</h3></b>：</p>
+<p>代码管理系统web端、桌面端(java)<br>YY论坛系统(jsp+servlet+javabean)<br>文件压缩器(java)<br>玩具进销存管理系统(c# winform)<br>XX省技术需求征集系统(ssh框架)<br>PM2.5实时预报系统(html5+jquery+mui)<br>铁大秘书(成绩查询、快递代领、澡堂人数查询)<br>基于大数据的电影网站<br>中铁三局集团梁场信息化管理系统<br>中国铁道科学研究院桥梁张拉设备联网系统</p>
+<p><h3>专业基础课程：</h3></b></p>
+<p>c、c++、java、c#、asp.net、html、javascript、css)<br>专业核心课程 数据结构与算法、计算机网络、软件工程概论、软件需求分析、软件架构、设计模式、计算机操作系统、Linux、编译原理、数据库<br>文件压缩器(java)<br>专业核心课程 数据结构与算法、计算机网络、软件工程概论、软件需求分析、软件架构、设计模式、计算机操作系统、Linux、编译原理、数据库<br>
+<p><h3>专业核心课程：</h3></b></p>
+<p>数据结构与算法、计算机网络、软件工程概论、软件需求分析、软件架构、设计模式、计算机操作系统、Linux、编译原理、数据库<br>文件压缩器(java)<br>专业核心课程 数据结构与算法、计算机网络、软件工程概论、软件需求分析、软件架构、设计模式、计算机操作系统、Linux、编译原理、数据库<br>
+<p><h3>专业技能：</h3></b></p>
+<p>熟练掌握java、c#、javascript、jquery、c、c++等语言。能够熟练使用sqlserver、mysql和oracle数据库<br>掌握SSH、SSM等常用的web框架。熟练使用html5+mui框架搭建手机app<br>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/09/18/hello-world/" data-id="cj7qa2p5n0000c8akzybaxpsp" class="article-share-link">Share</a>
-      
-      
-      
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://yoursite.com/2017/08/26/个人介绍/" title="个人介绍" target="_blank" rel="external">http://yoursite.com/2017/08/26/个人介绍/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
+
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/cofess" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/cofess" target="_blank"><span class="text-dark">宏伟</span><small class="ml-1x">JAVA Developer &amp; Designer</small></a></h3>
+        <div>个人简介。</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+
     </footer>
-  </div>
+  </article>
   
-</article>
- 
-
-
-  
-
-</section>
-           
-    <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-     
-        <h3 class="follow-title ">Follow me</h3>
-     
-    <div class="widget follow">
-      
-              <a class="github" aria-hidden="true" href="https://github.com/giscafer" target="_blank" title="Github"></a>
-      
-      
-            <a class="weibo" aria-hidden="true"  href="http://weibo.com/laohoubin" target="_blank" title="微博"></a>
-      
-      
-              <a class="zhihu" aria-hidden="true"  href="http://www.zhihu.com/people/giscafer" target="_blank" title="知乎"></a>
-      
-      
-            <a class="email" aria-hidden="true"  href="mailto:youemail@outlook.com" target="_blank" title="邮箱"></a>
-      
-    </div>
-  </div>
-
-
-  
-    
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title recent-posts">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2017/09/18/hello-world/">-- ��һ�� �ĸ�����ҳ</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title archive">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a><span class="archive-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-<div class="widget-wrap">
-    <h3 class="widget-title">Links</h3>
-    <div class="widget">
-        <ul>
-            
-            <li>
-                <a href="http://blog.giscafer.com">giscafer&#39;s blog</a>
-            </li>
-            
-            <li>
-                <a href="http://www.gis520.com">GIS520社区</a>
-            </li>
-            
-        </ul>
-    </div>
 </div>
 
   
-    <!--微信公众号二维码-->
 
-  <div class="widget-wrap">
-    <h3 class="follow-title ">WeChat</h3>
-    <div class="widget wechat-widget">
-        <img src="http://blog.giscafer.com/static/images/qrcode_giscafer.jpg" alt="扫码关注" width="250"/>
-    </div>
-  </div>
+   
+</section>
 
-
-  
-</aside>
-
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-left">
-      &copy; 2014 - 2017 ��һ��&nbsp;|&nbsp;
-      Theme by <a href="https://github.com/giscafer/hexo-theme-cafe/" target="_blank">Cafe</a>
-    </div>
-     <div id="footer-right">
-      Contact&nbsp;|&nbsp;youemail@outlook.com
-    </div>
-  </div>
-</footer>
- <script src="/jquery/jquery.min.js"></script>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">首页</a>
-  
-    <a href="/archives" class="mobile-nav-link">归档</a>
-  
-    <a href="/about" class="mobile-nav-link">关于</a>
-  
-</nav>
-    <img class="back-to-top-btn" src="/images/fly-to-top.png"/>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 <script>
-// Elevator script included on the page, already.
-window.onload = function() {
-  var elevator = new Elevator({
-    selector:'.back-to-top-btn',
-    element: document.querySelector('.back-to-top-btn'),
-    duration: 1000 // milliseconds
-  });
-}
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 </script>
-      
-
+<script src="/js/plugin.js"></script>
+<script src="/js/application.js"></script>
   
-    <script>
-      var cloudTieConfig = {
-        url: document.location.href, 
-        sourceId: "",
-        productKey: "e2fb4051c49842688ce669e634bc983f",
-        target: "cloud-tie-wrapper"
-      };
-    </script>
-    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+    
+    
+    
+        <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+    
+    
+        
+<script defer src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+    
+    
     
 
-  
 
 
-
-
-
-
-
-<!-- author:forvoid begin -->
-<!-- author:forvoid begin -->
-
-<!-- author:forvoid end -->
-
-<!-- author:forvoid end -->
-
-
-  
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-          processEscapes: true,
-          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
-      })
-    </script>
-
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax(), i;
-        for (i=0; i < all.length; i += 1) {
-          all[i].SourceElement().parentNode.className += ' has-jax';
-        }
-      })
-    </script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  
-
-
- <script src="/js/is.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-<script src="/js/elevator.js"></script>
-  </div>
 </body>
 </html>
